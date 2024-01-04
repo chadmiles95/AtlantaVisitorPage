@@ -1,0 +1,145 @@
+/**
+Palette: https://scrimba.com/links/hometown-palette
+RED: #E63946
+LIGHT: #F1FAEE
+AQUA: #A8DADC
+LIGHT BLUE: #457B9D
+DARK BLUE: #1D3557
+
+*/
+body 
+    {
+    margin:0;
+    text-align: center;
+    display:flex;
+    flex-direction:column;
+    align-items: center;
+    font-family: 'Times New Roman', Times, serif;
+    
+    } 
+
+h1, h2, h3, h4, p 
+    {
+    margin: 0;
+    text-shadow: 0 0 1px black;
+    }
+    
+.Header-Background
+    {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    background-image: url("images/biggestAtlanta.webp");
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    padding: 10rem 1rem;
+    }
+
+
+#Header-1
+    {
+    font-size: 4rem;
+    color:white;
+    background: #1D3557;
+    padding: .8rem 1rem;
+    border-radius: 2rem;
+ 
+    }
+    
+#Header-2
+    {
+  font-size: 2rem;
+    margin-top: 15rem;
+    color:white;
+   background: #457B9D; 
+    padding: .8rem 1rem;
+    border-radius: 1.15rem;
+    
+    
+    }
+    
+
+    
+#act{
+    width: 90%;
+    
+     display: flex;
+      flex-direction: row;
+      align-items: center;
+      justify-content: space-between;
+      margin-top: -2rem;
+      
+  }  
+ 
+#act-header{
+    margin-bottom: .5rem;
+}
+#act-section-one, #act-section-two, #act-section-three 
+    {
+    margin: auto 2rem;
+    }
+
+#img{
+     width: 10rem;
+     height: 10rem;
+     border-radius: 50%
+     
+    
+} 
+
+.Activities-Header
+    {
+    font-size: 2rem;
+    padding-bottom: 50px;
+    margin-top: 1rem;
+    }
+    
+
+
+.Guide
+    {
+    width: 40rem;
+    margin: 2rem 0 1rem 0;
+    padding: 1.2rem;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    background: #ddebf8;
+    color: #2b2839;
+    border-bottom: 6px solid #1D3557;
+    border-radius:.8rem;
+    }
+    
+#Guide-Img
+    {
+   width:12.5em;
+   border-radius: .625em;
+    }
+    
+
+     
+.Guide-Header
+    {
+    font-size:24px;
+    margin: 30px auto 20px auto;
+    font-family: 'Arial';
+     }
+     
+.Guide-Details
+    {
+    font-size: 1rem;
+    margin: auto .4375em;
+    font-style: italic;
+    font-family: 'Arial';
+    font-weight: bold;
+    
+    }
+.Guide-Name
+    {
+    font-weight: bold;
+    font-size: 16px;
+    margin: 1.25rem auto 2.5rem;
+    font-family: 'Arial';
+    }
